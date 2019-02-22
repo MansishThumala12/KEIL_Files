@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\objects\delay.o"
+".\objects\lcd16x2.o"
+".\objects\system_parameters.o"
+".\objects\intrrupt_hndlrs.o"
+".\objects\main.o"
+".\objects\thread.o"
+".\objects\msgqueue.o"
+".\objects\mailqueue.o"
+"E:\Keilv5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
+".\objects\rtx_conf_cm.o"
+".\objects\retarget_io.o"
+".\objects\misc.o"
+".\objects\stm32f10x_adc.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_spi.o"
+".\objects\stm32f10x_usart.o"
+".\objects\dma_stm32f10x.o"
+".\objects\gpio_stm32f10x.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\RTOS_Multiperipherial_example.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\RTOS_Multiperipherial_example.map" -o .\Objects\RTOS_Multiperipherial_example.axf
